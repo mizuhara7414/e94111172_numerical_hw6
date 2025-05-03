@@ -39,7 +39,7 @@ for i in range(n):
 print("\ngaussian - jordan後的矩陣:")
 print(Aug)
 
-# 提取逆矩陣部分
+# 逆矩陣部分
 A_inv = Aug[:, n:2*n]
 
 print("\ninverse matrix A^(-1):")
@@ -49,4 +49,3 @@ print(A_inv)
 print("\n A * A^(-1):")
 print(np.dot(A, A_inv))
 
-# 用分數形式表示結果（更精確）
